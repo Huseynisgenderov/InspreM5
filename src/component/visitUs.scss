@@ -1,0 +1,22 @@
+.visitUs {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background: #1d5356;
+  color: #fff;
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    .section-head {
+      margin-bottom: 2rem;
+      h1 {
+        font-family: "Space Grotesk", sans-serif;
+        font-size: 5rem;
+        line-height: 1.1;
+        text-align: center;
+      }
+    }
+    iframe {
+      border-radius: 2rem;
+    }
+  }
+}

@@ -1,5 +1,7 @@
 import "./hero.scss";
-import hero from "../assets/hero.jpg";
+//swal
+import Swal from "sweetalert2/dist/sweetalert2.js";
+import "sweetalert2/src/sweetalert2.scss";
 
 const Hero = () => {
   return (
@@ -17,7 +19,16 @@ const Hero = () => {
                 Lorem ipsum dolor sit amet erat, adipiscing elit. Praesent a
                 laoreet lacinia. Mauris tempus erat nisl, commodo velit.
               </p>
-              <div className="read-more">
+              <div
+                className="read-more"
+                onClick={function () {
+                  Swal.fire({
+                    icon: "error",
+                    title: "Oops...",
+                    text: "Səhifə onepage-dir keçid mövcud deyil",
+                  });
+                }}
+              >
                 <a href="#">Read More</a>
               </div>
             </div>
