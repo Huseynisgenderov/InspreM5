@@ -14,6 +14,11 @@ html {
 a {
   color: #232323;
 }
+.scrolled {
+  img{
+    height: 2.5rem !important;
+  }
+}
 .navbar {
   position: fixed;
   padding: 0 1rem;
@@ -24,7 +29,7 @@ a {
   backdrop-filter: blur(5px);
   width: 100%;
   z-index: 2;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   .container-fluid {
     display: flex;
     flex-wrap: wrap;
@@ -185,7 +190,7 @@ a {
     flex-basis: auto;
     justify-content: flex-end;
     align-items: center;
-        height: 100% !important;
+    height: 100% !important;
     .navList {
       display: flex;
     }

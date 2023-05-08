@@ -1,6 +1,7 @@
 import Body from "./component/Body";
 import Hero from "./component/Hero";
 import Navbar from "./component/Navbar";
+import OurTeam from "./component/OurTeam";
 import VisitUs from "./component/VisitUs";
 
 function App() {
@@ -8,8 +9,9 @@ function App() {
     <div className="home">
       <Navbar />
       <Hero />
-      <Body/>
-      <VisitUs/>
+      <Body />
+      <OurTeam />
+      <VisitUs />
     </div>
   );
 }
