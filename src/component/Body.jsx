@@ -1,7 +1,6 @@
 import { useState } from "react";
 //scss
 import "./body.scss";
-import "./hero.scss";
 //img
 import about from "../assets/features2.jpg";
 import advice from "../assets/features3.jpg";
@@ -115,29 +114,6 @@ const Body = () => {
                   }}
                 >
                   <a href="#">Read More</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="hero">
-        <div className="container-fluid">
-          <div className="row second-row">
-            <div className="col-15">
-              <div className="card-wrapper">
-                <div className="left">
-                  <h2>OUR MISSION</h2>
-                  <h1>
-                    <strong>About Our Company</strong>
-                  </h1>
-                </div>
-                <div className="right left">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Donec sagittis condimentum dui, nec varius elit condimentum
-                    non. Phasellus pulvinar scelerisque lorem non volutpa.
-                  </p>
                 </div>
               </div>
             </div>
