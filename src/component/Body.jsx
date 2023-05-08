@@ -1,9 +1,11 @@
+import { useState } from "react";
+//scss
 import "./body.scss";
 import "./hero.scss";
+//img
 import about from "../assets/features2.jpg";
 import advice from "../assets/features3.jpg";
 import feature from "../assets/features4.jpg";
-import { useState } from "react";
 //swal
 import Swal from "sweetalert2/dist/sweetalert2.js";
 import "sweetalert2/src/sweetalert2.scss";

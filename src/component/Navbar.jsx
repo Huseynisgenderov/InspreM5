@@ -1,7 +1,10 @@
 import { useState } from "react";
 import { useEffect } from "react";
+//scss
 import "./navbar.scss";
+//img
 import logo from "../assets/logo.png";
+//swal
 import Swal from "sweetalert2/dist/sweetalert2.js";
 import "sweetalert2/src/sweetalert2.scss";
 
