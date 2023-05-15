@@ -29,7 +29,7 @@ const Hero = () => {
                   });
                 }}
               >
-                <a href="#">Read More</a>
+                <a href="#me">Read More</a>
               </div>
             </div>
           </div>
