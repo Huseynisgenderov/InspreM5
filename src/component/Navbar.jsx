@@ -35,12 +35,12 @@ const Navbar = () => {
       <div className="container-fluid">
         <div className="brand">
           <span className="logo">
-            <a href="#">
+            <a href="#me">
               <img src={logo} alt="" />
             </a>
           </span>
           <span className="caption">
-            <a href="#">InspireM5</a>
+            <a href="#me">InspireM5</a>
           </span>
         </div>
         <button className="hamburger-but" onClick={toggleMenu}>
@@ -54,22 +54,22 @@ const Navbar = () => {
         <div className={`collapse ${isOpen ? "open" : ""}`}>
           <ul className="navList">
             <li class="nav-item">
-              <a class="nav-link " href="#">
+              <a class="nav-link " href="#me">
                 Home
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#">
+              <a class="nav-link " href="#me">
                 Features
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#">
+              <a class="nav-link " href="#me">
                 About
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#">
+              <a class="nav-link " href="#me">
                 Contacts
               </a>
             </li>
@@ -84,7 +84,7 @@ const Navbar = () => {
               });
             }}
           >
-            <a class="btn" href="#">
+            <a class="btn" href="#me">
               Get Started
             </a>
           </div>

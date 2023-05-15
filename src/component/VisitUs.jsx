@@ -10,6 +10,7 @@ const VisitUs = () => {
         <div className="mapouter">
           <div className="gmap_canvas">
             <iframe
+              title="map"
               className="gmap_iframe"
               width="100%"
               frameBorder="0"
